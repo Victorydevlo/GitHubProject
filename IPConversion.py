@@ -11,10 +11,13 @@ def decimal(ip):
 def binary(ip):
     try:
         binaryconverted = bin(int(ipaddress.IPv4Address(ip)))
+        return binaryconverted
     except ValueError as errore:
         return "invalid input: ", errore ,"."
 
 if __name__ == "__main__":
     userinput = input("Enter IP adress").strip()
     result = decimal(userinput)
+    bresult = binary(userinput)
     print("Number conversion", result)
+    print("Binary Conversion" )
