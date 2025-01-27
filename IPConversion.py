@@ -20,4 +20,4 @@ if __name__ == "__main__":
     result = decimal(userinput)
     bresult = binary(userinput)
     print("Number conversion", result)
-    print("Binary Conversion" )
+    print("Binary Conversion", bresult)
