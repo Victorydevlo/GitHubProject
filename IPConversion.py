@@ -26,7 +26,7 @@ if __name__ == "__main__":
         if validation(userinput):
             result = decimal(userinput)
             bresult = binary(userinput)
-            print("Number conversion", result)
-            print("Binary Conversion", bresult)
+            print("Number conversion:", result)
+            print("Binary Conversion:", bresult)
         else:
             print("Incorect Input Formatw")
